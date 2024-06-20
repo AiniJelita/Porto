@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Homepage -->
+    <section id="home">
+        <header>
+            <img src="picture/profile.jpeg" alt="Your Photo">
+            <h1>Aini Jelita Puspa Ningrum</h1>
+            <p>Web Developer | Designer | Programmer</p>
+        </header>
+    </section>
+
+    <!-- About Page -->
+<!-- HTML -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hi! Saya seorang mahasiswa di Politeknik Negeri Pontianak yang gemar dalam desain menggunakan Photoshop dan CapCut. Saya juga mahir dalam web design dengan HTML, CSS
+    <h2>Skills</h2>
+        <div class="skills-container">
+        <div class="skill">
+            <img src="picture/html.png" alt="HTML Icon"> HTML
+        </div>
+        <div class="skill">
+            <img src="picture/css.jpg" alt="CSS Icon"> CSS
+        </div>
+        <div class="skill">
+            <img src="picture/Canva.png" alt="React Icon"> Canva
+        </div>
+        <div class="skill">
+            <img src="picture/capcutr.jpg" alt="Node.js Icon"> CapCut
+        </div>
+    </div>
+</section>
+
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="projects-container">
+        <div class="project">
+            <div class="project-info">
+                <h3>Web Managemen Rumah Sakit</h3>
+                <p>Aplikasi untuk manajemen rumah sakit</p>
+            </div>
+            <div class="project-image">
+                <img src="picture/Project1.png" alt="Project 1">
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-info">
+                <h3>Project 2</h3>
+                <p>Aplikasi Unit Converter</p>
+            </div>
+            <div class="project-image">
+                <img src="picture/Project2.png" alt="Project 2">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- Contact Page -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Intrested? Please Contact me!" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+        <div class="social-links">
+            <a href="mailto:ainijelitapuspaningrum@gmail.con">Email</a>
+            <a href="https://www.linkedin.com/in/aini-jelita-puspa-ningrum-13a101313/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/AiniJelita" target="_blank">GitHub</a>
+        </div>
+    </section>
+</body>
+</html>
